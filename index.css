@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    background-color: #bdb76b;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #e9967a;
+    width: 100%;
+}
+
+.upper {
+    border-bottom: 2px solid #000000;
+    font-family: Alike;
+    font-size: 50px;
+    display: flex;
+    padding-left: 35%;
+}
+
+input {
+    max-width: 45%;
+}
+
+li {
+    display: inline;
+    padding: 0 25px;
+}
