@@ -11,11 +11,11 @@ body {
     text-align: center;
     background-color: #e9967a;
     width: 100%;
+    font-family: Alike;
 }
 
 .upper {
     border-bottom: 2px solid #000000;
-    font-family: Alike;
     font-size: 50px;
     display: flex;
     padding-left: 35%;
@@ -25,7 +25,28 @@ input {
     max-width: 45%;
 }
 
-li {
+.lower ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.lower ul li {
+    border-right: 2px solid #fffafa;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cd5c5c;
+}
+
+ul li .menu {
+    display: none;
+}
+
+ul li:hover .menu{
     display: inline;
-    padding: 0 25px;
 }
