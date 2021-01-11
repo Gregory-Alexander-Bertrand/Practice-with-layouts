@@ -50,3 +50,66 @@ ul li .menu {
 ul li:hover .menu{
     display: inline;
 }
+
+ul li ul li {
+    padding: 0 5px;
+}
+
+ul li ul li:nth-of-type(4) {
+    border-right: none;
+}
+
+.container {
+    display: flex;
+    font-family: Alike;
+    padding: 10px 0;
+}
+
+.sidebar {
+    background-color: #fff5ee;
+    padding-right: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+.stuff {
+    display: block;
+    text-align: center;
+}
+
+.content {
+    background-color: #e9967a;
+}
+
+.otherstuff {
+    background-color: #fff5ee;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.photo:hover {
+    opacity: 0.7;
+}
+
+.title {
+    position: absolute;
+    top: 30%;
+    right: 33%;
+    font-size: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.title:hover {
+    opacity: 1;
+    cursor: pointer;
+}
