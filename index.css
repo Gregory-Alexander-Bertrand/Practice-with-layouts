@@ -45,6 +45,7 @@ a:hover {
 
 ul li .menu {
     display: none;
+    margin: 0 15px;
 }
 
 ul li:hover .menu{
@@ -105,11 +106,41 @@ h1 {
     top: 30%;
     right: 33%;
     font-size: 20px;
-    opacity: 0.5;
     cursor: pointer;
+    color: #fff5ee;
+    text-decoration: overline 1px #000000;
 }
 
-.title:hover {
-    opacity: 1;
+.title2 {
+    position: absolute;
+    right: 33%;
+    font-size: 20px;
     cursor: pointer;
+    color: #fff5ee;
+    text-decoration: overline 1px #000000;
+}
+
+.title3 {
+    position: absolute;
+    right: 33%;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff5ee;
+    text-decoration: overline 1px #000000;
+}
+
+h2 {
+    border-bottom: 2px solid #000000;
+    text-align: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+   
+}
+
+.pic {
+    height: 150px;
+    width: 150px;
 }
