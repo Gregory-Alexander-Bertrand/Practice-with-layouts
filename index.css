@@ -134,10 +134,8 @@ h2 {
     text-align: center;
 }
 
-.content {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-   
+.book {
+    display: inline;
 }
 
 .pic {
