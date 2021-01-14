@@ -150,3 +150,21 @@ h2 {
     right: 25%;
     position: relative;
 }
+
+#star2 {
+    display: inline;
+    font-size: 15px;
+    color: #b22222;
+    position: relative;
+    right: 25%;
+    top: -10%;
+}
+
+#star3 {
+    display: inline;
+    font-size: 12px;
+    color: #b22222;
+    position: relative;
+    right: 20%;
+    top: -10%;
+}
