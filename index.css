@@ -142,3 +142,11 @@ h2 {
     height: 150px;
     width: 150px;
 }
+
+#star {
+    display: inline;
+    color: #b22222;
+    top: -10%;
+    right: 25%;
+    position: relative;
+}
